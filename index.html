@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TRITEC is a premium software house providing web development, mobile app development, custom software, AI solutions, UI/UX design, cloud services, and digital transformation.">
+  <meta name="keywords" content="TRITEC, software house, web development, mobile app development, custom software, AI solutions, cloud services, UI UX design">
+  <meta name="theme-color" content="#050B1F">
+  <title>TRITEC | Premium Software House</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-bg" aria-hidden="true">
+    <div class="aurora aurora-one"></div>
+    <div class="aurora aurora-two"></div>
+    <div class="aurora aurora-three"></div>
+    <div class="animated-grid"></div>
+    <div class="scan-beam"></div>
+    <div class="tech-rings">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="floating-nodes">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <canvas id="particle-field"></canvas>
+  </div>
+
+  <header class="header" id="top">
+    <a class="brand" href="#top" aria-label="TRITEC home">
+      <img class="brand-image" src="assets/tritec-logo.jpg" alt="TRITEC">
+    </a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#top">Home</a>
+      <a href="#about">About</a>
+      <a href="#why">Why Us</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#case-studies">Case Studies</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="tel:+923408774615" aria-label="Call TRITEC at +92 340 8774615">
+      <span class="call-icon" aria-hidden="true">&#9742;</span>
+      <span><small>Call us today</small><strong>+92 340 8774615</strong></span>
+    </a>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Premium software house for ambitious brands</p>
+        <h1>Transforming Ideas Into Digital Success</h1>
+        <p class="hero-text">Custom Software Development, Web Applications, Mobile Apps, AI Solutions and Digital Transformation Services.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#contact">Get Free Consultation</a>
+          <a class="button secondary" href="#portfolio">View Portfolio</a>
+        </div>
+        <div class="trust-row" aria-label="TRITEC trust indicators">
+          <span>Enterprise-grade delivery</span>
+          <span>Secure architecture</span>
+          <span>Fast scalable systems</span>
+        </div>
+        <div class="project-highlight">
+          <strong>120+</strong>
+          <span>Projects delivered successfully</span>
+        </div>
+        <div class="hero-mini-metrics" aria-label="TRITEC performance highlights">
+          <div><strong>4.9/5</strong><span>Client rating</span></div>
+          <div><strong>120+</strong><span>Projects</span></div>
+          <div><strong>24/7</strong><span>Support</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Custom futuristic TRITEC technology illustration">
+        <div class="orbital-system">
+          <div class="hero-image-shell">
+            <img src="assets/tritec-hero-tech.png" alt="Futuristic software dashboards and 3D cloud technology illustration for TRITEC">
+          </div>
+          <div class="core-cube">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="orbit orbit-one"><i>AI</i></div>
+          <div class="orbit orbit-two"><i>WEB</i></div>
+          <div class="orbit orbit-three"><i>APP</i></div>
+          <div class="orbit orbit-four"><i>UX</i></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split" id="about">
+      <div class="section-heading reveal">
+        <p class="section-kicker">About TRITEC</p>
+        <h2>Software engineering with strategy, polish, and business focus.</h2>
+        <p>TRITEC helps companies turn digital ideas into reliable products, modern platforms, and intelligent business systems. We design and build software that looks premium, performs fast, and supports long-term growth.</p>
+      </div>
+      <div class="about-panel reveal">
+        <div class="mini-dashboard">
+          <img src="assets/section-about.jpg" alt="TRITEC company strategy and software planning visual">
+        </div>
+        <h3>Built for founders, teams, and growing enterprises.</h3>
+        <p>Every project blends product planning, UI/UX, development, testing, launch support, and continuous improvement into one professional delivery experience.</p>
+      </div>
+    </section>
+
+    <section class="section split" id="why">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Why Choose Us</p>
+        <h2>A trusted technology partner for serious digital growth.</h2>
+        <p>TRITEC combines modern design, clean code, scalable architecture, and transparent communication so your project moves from idea to launch with confidence.</p>
+      </div>
+      <div class="why-list reveal">
+        <div class="section-picture"><img src="assets/section-why.jpg" alt="Why choose TRITEC quality and trust visual"></div>
+        <article><span>01</span><strong>Premium user experience</strong><p>Interfaces designed to feel modern, clear, and conversion-focused.</p></article>
+        <article><span>02</span><strong>Scalable development</strong><p>Clean, maintainable systems that can grow with your business.</p></article>
+        <article><span>03</span><strong>Reliable communication</strong><p>Clear milestones, practical planning, and professional project handling.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Services</p>
+        <h2>Complete software services for modern companies.</h2>
+      </div>
+      <div class="card-grid services-grid">
+        <article class="glass-card service-card reveal"><div class="service-picture web"><img src="assets/portfolio-dashboard.jpg" alt="Web development dashboard visual"></div><span class="icon">WD</span><h3>Web Development</h3><p>Fast, responsive websites and web applications with premium UI, secure backends, and strong SEO foundations.</p><a class="card-link" href="#contact">Discuss project</a></article>
+        <article class="glass-card service-card reveal"><div class="service-picture app"><img src="assets/portfolio-mobile.jpg" alt="Mobile app development visual"></div><span class="icon">MA</span><h3>Mobile App Development</h3><p>Elegant mobile experiences for Android and iOS with smooth journeys, APIs, dashboards, and launch support.</p><a class="card-link" href="#contact">Build an app</a></article>
+        <article class="glass-card service-card reveal"><div class="service-picture software"><img src="assets/section-about.jpg" alt="Custom software system visual"></div><span class="icon">CS</span><h3>Custom Software</h3><p>Business portals, CRMs, ERPs, booking systems, automation platforms, and tools tailored to your operations.</p><a class="card-link" href="#contact">Automate now</a></article>
+        <article class="glass-card service-card reveal"><div class="service-picture ai"><img src="assets/portfolio-ai.jpg" alt="AI solutions technology visual"></div><span class="icon">AI</span><h3>AI Solutions</h3><p>AI chatbots, workflow automation, analytics tools, smart recommendations, and intelligent product features.</p><a class="card-link" href="#contact">Add AI</a></article>
+        <article class="glass-card service-card reveal"><div class="service-picture ux"><img src="assets/service-ux.jpg" alt="UI UX design interface visual"></div><span class="icon">UX</span><h3>UI/UX Design</h3><p>Research-led interfaces, wireframes, prototypes, design systems, and product experiences that build trust.</p><a class="card-link" href="#contact">Design better</a></article>
+        <article class="glass-card service-card reveal"><div class="service-picture cloud"><img src="assets/service-cloud.jpg" alt="Cloud services infrastructure visual"></div><span class="icon">CL</span><h3>Cloud Services</h3><p>Cloud deployment, hosting setup, database architecture, DevOps workflows, backups, and performance tuning.</p><a class="card-link" href="#contact">Scale cloud</a></article>
+      </div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Portfolio Showcase</p>
+        <h2>Digital products designed to look premium and perform reliably.</h2>
+      </div>
+      <div class="portfolio-grid">
+        <article class="portfolio-card reveal">
+          <div class="portfolio-picture finance"><img src="assets/portfolio-dashboard.jpg" alt="Enterprise dashboard software project"></div>
+          <h3>Enterprise Business Dashboard</h3>
+          <p>A management platform with analytics, user roles, workflows, and real-time reporting.</p>
+        </article>
+        <article class="portfolio-card reveal">
+          <div class="portfolio-picture health"><img src="assets/portfolio-ai.jpg" alt="AI customer support system project"></div>
+          <h3>AI Customer Support System</h3>
+          <p>An intelligent support experience with chatbot automation, ticket routing, and insight tracking.</p>
+        </article>
+        <article class="portfolio-card reveal">
+          <div class="portfolio-picture logistics"><img src="assets/portfolio-mobile.jpg" alt="Mobile commerce application project"></div>
+          <h3>Mobile Commerce Application</h3>
+          <p>A polished mobile buying journey with secure checkout, customer accounts, and admin control.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section case-study-section" id="case-studies">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Case Studies</p>
+        <h2>Modern solutions that turn business problems into digital growth.</h2>
+      </div>
+      <div class="case-study-grid">
+        <article class="case-study-card reveal">
+          <span>01</span>
+          <h3>Retail Brand Website Redesign</h3>
+          <p>TRITEC rebuilt a service website with a premium UI, faster loading, stronger lead flow, and WhatsApp-first customer contact.</p>
+          <strong>Result: 3x more inquiries</strong>
+        </article>
+        <article class="case-study-card reveal">
+          <span>02</span>
+          <h3>Custom Business Management Portal</h3>
+          <p>A growing company needed one dashboard for customers, staff, reports, and daily operations. We delivered a clean, scalable web portal.</p>
+          <strong>Result: 45% less manual work</strong>
+        </article>
+        <article class="case-study-card reveal">
+          <span>03</span>
+          <h3>AI Support Automation</h3>
+          <p>We designed an AI-powered support flow to answer common questions, collect leads, and route serious customers to the sales team.</p>
+          <strong>Result: Faster response time</strong>
+        </article>
+      </div>
+    </section>
+
+    <section class="section stats-section" id="statistics">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Success Statistics</p>
+        <h2>Numbers that reflect dependable execution.</h2>
+      </div>
+      <div class="proof-grid reveal">
+        <div class="stats-picture"><img src="assets/section-stats.jpg" alt="TRITEC success statistics growth visual"></div>
+        <div><strong data-count="120" data-suffix="+">0</strong><span>Projects completed</span></div>
+        <div><strong data-count="98" data-suffix="%">0</strong><span>Client satisfaction</span></div>
+        <div><strong data-count="6" data-suffix="+">0</strong><span>Core service areas</span></div>
+        <div><strong data-count="24" data-suffix="/7">0</strong><span>Support mindset</span></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Clients Can Trust</p>
+        <h2>Real feedback from teams who trusted TRITEC.</h2>
+      </div>
+      <div class="testimonial-grid">
+        <blockquote class="testimonial-card glass-card reveal">
+          <div class="client-profile">
+            <img src="assets/client-aisha.jpg"
+             alt="Aisha Malik client portrait">
+            <div>
+              <cite>Aisha Malik</cite>
+              <span>CEO, Digital Commerce Brand</span>
+            </div>
+          </div>
+          <div class="stars" aria-label="Five star rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"TRITEC transformed our old website into a premium digital experience. The design looks international, loads fast, and our customers trust the brand much more now."</p>
+        </blockquote>
+        <blockquote class="testimonial-card glass-card reveal">
+          <div class="client-profile">
+            <img src="assets/client-omar.jpg" alt="Omar Siddiqui client portrait">
+            <div>
+              <cite>Omar Siddiqui</cite>
+              <span>Founder, SaaS Operations Platform</span>
+            </div>
+          </div>
+          <div class="stars" aria-label="Five star rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"The team understood our business problem and built a clean custom software solution. Communication was professional, timelines were clear, and the final product felt enterprise-ready."</p>
+        </blockquote>
+        <blockquote class="testimonial-card glass-card reveal">
+          <div class="client-profile">
+            <img src="assets/client-sara.jpg" alt="Sara Khan client portrait">
+            <div>
+              <cite>Sara Khan</cite>
+              <span>Marketing Director, Service Company</span>
+            </div>
+          </div>
+          <div class="stars" aria-label="Five star rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"Our mobile app and UI design came out better than expected. TRITEC made everything modern, smooth, and easy for users. Highly recommended for serious businesses."</p>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="section tech-section">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Technology Stack</p>
+        <h2>Modern technologies for fast, secure, scalable products.</h2>
+      </div>
+      <div class="tech-cloud reveal">
+        <span class="tech-picture"><img src="assets/section-tech.jpg" alt="Modern technology stack visual"></span>
+        <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>Node.js</span><span>Laravel</span><span>PHP</span><span>Python</span><span>Flutter</span><span>Firebase</span><span>AWS</span>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-panel reveal">
+        <div>
+          <p class="section-kicker">Contact TRITEC</p>
+          <h2>Ready to build something exceptional?</h2>
+          <p>Start with a free consultation and get a clear path for your website, app, custom software, AI solution, or cloud project.</p>
+          <div class="contact-visual"><img src="assets/section-contact.jpg" alt="TRITEC consultation and WhatsApp contact visual"></div>
+          <div class="contact-cards">
+            <a href="tel:+923408774615">Call: +92 340 8774615</a>
+            <a href="https://wa.me/923408774615" target="_blank" rel="noopener">WhatsApp Consultation</a>
+          </div>
+        </div>
+        <form class="contact-form" aria-label="TRITEC project inquiry form">
+          <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+          <label>Phone<input type="tel" name="phone" placeholder="+92 340 8774615" required></label>
+          <label>Service<select name="service"><option>Web Development</option><option>Mobile App Development</option><option>Custom Software</option><option>AI Solutions</option><option>UI/UX Design</option><option>Cloud Services</option></select></label>
+          <label>Message<textarea name="message" rows="4" placeholder="Tell us about your project"></textarea></label>
+          <button class="button primary" type="submit">Get Free Consultation</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <a class="whatsapp-float" href="https://wa.me/923408774615" target="_blank" rel="noopener" aria-label="Chat with TRITEC on WhatsApp">
+    <span class="whatsapp-icon">WA</span>
+    <span class="whatsapp-text">WhatsApp<br>Contact Now</span>
+  </a>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand-card">
+        <img class="footer-logo" src="assets/tritec-logo.jpg" alt="TRITEC">
+        <p>Providing ultimate software solutions with premium design, scalable development, AI automation, and digital transformation services.</p>
+      </div>
+      <div class="footer-column">
+        <h3>Company</h3>
+        <a href="#about">About Us</a>
+        <a href="#why">Why Choose Us</a>
+        <a href="#services">Services</a>
+        <a href="#case-studies">Case Studies</a>
+      </div>
+      <div class="footer-column">
+        <h3>Services</h3>
+        <a href="#services">Web Development</a>
+        <a href="#services">Mobile Apps</a>
+        <a href="#services">Custom Software</a>
+        <a href="#services">AI Solutions</a>
+      </div>
+      <div class="footer-column footer-contact">
+        <h3>Contact Info</h3>
+        <p><strong>Address PK:</strong> Tritec Kodes, Street #5, Shabir Town, Sargodha.</p>
+        <p><strong>Phone:</strong> <a href="tel:+923408774615">+92 340 8774615</a></p>
+        <p class="footer-mail"><strong>Mail:</strong> <a href="mailto:contact@triteckodes.com">contact@triteckodes.com</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
